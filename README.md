@@ -6,7 +6,7 @@
 ### 얼굴인식을 활용한 연령별 대응 로봇 시스템
 
 > <img src="assets/icons/circle-info.svg" width="16" height="16"/> **안내** : 주 계정 이전(`jga-eun` → `gaeun-jay`)으로 인해 기존 계정인 [@jga-eun](https://github.com/jga-eun) 에서 fork 해 온 프로젝트입니다.
-> - 원본: [jga-eun/InformRobot](https://github.com/jga-eun/InformRobot)
+ - 원본: [jga-eun/InformRobot](https://github.com/jga-eun/InformRobot)
 
 </div>
 
