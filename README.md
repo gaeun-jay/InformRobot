@@ -11,7 +11,7 @@
 
 <br/>
 
-## <img src="assets/icons/magnifying-glass.svg" width="18" height="18"/> &nbsp;프로젝트 배경 및 목적
+## <img src="assets/magnifying-glass.svg" width="18" height="18"/> &nbsp;프로젝트 배경 및 목적
 
 디지털 시대의 도래와 함께 은행, 병원, 행정기관 등 공공기관에서 키오스크 설치가 급증하였으나, **사용자 맞춤형 대응이 어렵다**는 한계가 존재합니다.
 
@@ -21,7 +21,7 @@
 
 <br/>
 
-## <img src="assets/icons/bullseye.svg" width="18" height="18"/> &nbsp;학습 목표
+## <img src="assets/bullseye.svg" width="18" height="18"/> &nbsp;학습 목표
 
 - 딥러닝 기반 얼굴 인식(DeepFace) 모델의 실제 적용
 - STT / TTS / LLM API를 활용한 자연어 인터랙션 구현
@@ -30,7 +30,7 @@
 
 <br/>
 
-## <img src="assets/icons/users.svg" width="18" height="18"/> &nbsp;팀 구성 및 담당 역할
+## <img src="assets/users.svg" width="18" height="18"/> &nbsp;팀 구성 및 담당 역할
 
 - **프로그램** : 2024년 성신여자대학교 하계 학부생 연구프로그램 (UROP)
 - **지도교수** : 성신여자대학교 AI융합학부 강종구 교수님
@@ -55,7 +55,7 @@
 
 <br/>
 
-## <img src="assets/icons/star.svg" width="18" height="18"/> &nbsp;주요 기능
+## <img src="assets/star.svg" width="18" height="18"/> &nbsp;주요 기능
 
 ### 1. 연령별 맞춤 응대
 - 웹캠을 통해 실시간으로 얼굴을 인식하고 **DeepFace(VGG-Face)** 모델로 나이를 예측
@@ -89,7 +89,7 @@
 
 <br/>
 
-## <img src="assets/icons/file-lines.svg" width="18" height="18"/> &nbsp;관련 논문
+## <img src="assets/file-lines.svg" width="18" height="18"/> &nbsp;관련 논문
 
 본 프로젝트는 2024년 학부 연구(UROP) 과정에서 진행되었으며, 아래 논문으로 연구 결과를 정리하였습니다.
 
@@ -111,7 +111,7 @@
 
 <br/>
 
-## <img src="assets/icons/screwdriver-wrench.svg" width="18" height="18"/> &nbsp;기술 스택
+## <img src="assets/screwdriver-wrench.svg" width="18" height="18"/> &nbsp;기술 스택
 
 <table>
   <tr>
@@ -161,7 +161,7 @@
 
 <br/>
 
-## <img src="assets/icons/triangle-exclamation.svg" width="18" height="18"/> &nbsp;미구현 기능
+## <img src="assets/triangle-exclamation.svg" width="18" height="18"/> &nbsp;미구현 기능
 
 | 기능 | 설명 |
 |------|------|
@@ -170,7 +170,7 @@
 
 <br/>
 
-## <img src="assets/icons/folder-open.svg" width="18" height="18"/> &nbsp;프로젝트 구조
+## <img src="assets/folder-open.svg" width="18" height="18"/> &nbsp;프로젝트 구조
 
 ```
 InformRobot/
@@ -198,7 +198,7 @@ InformRobot/
 
 <br/>
 
-## <img src="assets/icons/gear.svg" width="18" height="18"/> &nbsp;설치 및 실행
+## <img src="assets/gear.svg" width="18" height="18"/> &nbsp;설치 및 실행
 
 ### 1. 환경 변수 설정
 
