@@ -5,32 +5,34 @@
 # InformRobot
 ### 얼굴인식을 활용한 연령별 대응 로봇 시스템
 
-> **계정 이전 안내** : 기존 계정(`jga-eun`)에서 현재 계정(`gaeun-jay`)으로 이전된 레포지토리입니다.
+> **계정 이전 안내** : 주 깃허브 계정 변경으로 인해, 기존 계정(`jga-eun`)에서 현재 계정(`gaeun-jay`)으로 이전된 레포지토리입니다.
 
 </div>
 
 <br/>
 
-## <img src="assets/icons/magnifying-glass.svg" width="18" height="18"/> &nbsp;프로젝트 배경 및 목적
+## <img src="assets/icons/magnifying-glass.svg" width="18" height="18"/> &nbsp;연구 배경 
 
 디지털 시대의 도래와 함께 은행, 병원, 행정기관 등 공공기관에서 키오스크 설치가 급증하였으나, **사용자 맞춤형 대응이 어렵다**는 한계가 존재합니다.
 
 특히 고령층 사용자는 디지털 기기에 익숙하지 않아 키오스크 사용을 기피하는 경향이 있으며, 공공기관 특성상 부서가 세분화되어 있어 올바른 정보를 얻기 어려운 경우도 많습니다.
 
-이를 해결하기 위해 **얼굴 인식 기반 연령 분석**으로 사용자를 구분하고, 연령에 맞는 맞춤형 정보를 제공하는 안내 로봇 시스템을 개발하였습니다.
+이를 해결하기 위해 **얼굴 인식 기반 연령 분석**으로 사용자를 구분하고, **연령에 맞는 맞춤형 정보**를 제공하는 안내 로봇 시스템을 개발하였습니다.
 
 <br/>
 
-## <img src="assets/icons/bullseye.svg" width="18" height="18"/> &nbsp;학습 목표
+## <img src="assets/icons/bullseye.svg" width="18" height="18"/> &nbsp;연구 목적 및 목표
 
-- 딥러닝 기반 얼굴 인식(DeepFace) 모델의 실제 적용
+- 딥러닝 기반 얼굴 인식(DeepFace) 모델 구현 및 적용
 - STT / TTS / LLM API를 활용한 자연어 인터랙션 구현
 - YOLOv5 및 OpenCV를 이용한 실시간 장애물 감지 및 자율주행 로직 구현
-- 3D 프린팅 및 Fusion 360을 활용한 하드웨어 설계 및 제작
+- 3D 프린팅 및 Fusion 360을 활용한 하드웨어(로봇 본체) 설계 및 제작
+- Raspberry Pi 4를 활용한 임베디드 시스템 구축 경험
+
 
 <br/>
 
-## <img src="assets/icons/users.svg" width="18" height="18"/> &nbsp;팀 구성 및 담당 역할
+## <img src="assets/icons/users.svg" width="18" height="18"/> &nbsp;연구 정보
 
 - **프로그램** : 2024년 성신여자대학교 하계 학부생 연구프로그램 (UROP)
 - **지도교수** : 성신여자대학교 AI융합학부 강종구 교수님
@@ -55,7 +57,7 @@
 
 <br/>
 
-## <img src="assets/icons/star.svg" width="18" height="18"/> &nbsp;주요 기능
+## <img src="assets/icons/star.svg" width="18" height="18"/> &nbsp;얼굴인식을 활용한 연령별 대응 로봇 시스템 주요 기능
 
 ### 1. 연령별 맞춤 응대
 - 웹캠을 통해 실시간으로 얼굴을 인식하고 **DeepFace(VGG-Face)** 모델로 나이를 예측
@@ -177,11 +179,11 @@ InformRobot/
 ├── app.py                  # Flask 메인 서버 (STT, TTS, GPT, YOLO, 얼굴인식)
 ├── .gitignore
 ├── assets/
-│   ├── icons/                # 섹션 아이콘 SVG
+│   ├── icons/                # Readme 파일 섹션 아이콘 SVG
 │   ├── robot.png             # 로봇 실제 사진
 │   ├── age_basic.png         # 기본 응답 화면 스크린샷
 │   ├── age_65.png            # 고령 사용자 응답 화면 스크린샷
-│   └── 2024_UROP_Development of age-appropriate robot system using face recognition.pdf
+│   └── 2024_UROP_Development of age-appropriate robot system using face recognition.pdf # UROP 소논문
 └── static/
     ├── chat.html           # 채팅(질문) UI
     ├── chat.js             # 음성 녹음 및 질의응답 로직
